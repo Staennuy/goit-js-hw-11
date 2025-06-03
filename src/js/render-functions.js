@@ -45,9 +45,9 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-  document.querySelector('.loader').hidden = false;
+  document.querySelector('.loader').style.display = 'inline-block';
 }
 
 export function hideLoader() {
-  document.querySelector('.loader').hidden = true;
+  document.querySelector('.loader').style.display = 'none';
 }
